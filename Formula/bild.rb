@@ -1,9 +1,7 @@
 class Bild < Formula
-  desc "CLI for image/video generation and editing, designed for scriptability and agentic use. Supports over 150 models from leading providers."
+  desc "CLI for image/video generation and editing as a unified provider interface"
   homepage "https://bildomat.com"
-  version "0.0.5"
   license "MIT"
-
   on_macos do
     on_arm do
       url "https://github.com/shdeen/bildomat/releases/download/v0.0.5/bild_0.0.5_darwin_arm64.tar.gz"
